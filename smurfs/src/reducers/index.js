@@ -1,3 +1,5 @@
+import {FETCHING_SMURF_FAIL, FETCHING_SMURF_SUCCESS, FETCHING_SMURF_START} from '../actions/index'
+
 const initialState = {
     isLoading: false,
     error: '',
