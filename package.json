@@ -4,7 +4,9 @@
   "description": "Redux Sprint Challenge",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "babel src -d lib",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,6 @@
     "react": "^16.12.0",
     "react-redux": "^7.2.0",
     "react-router": "^5.1.2",
-    "rect": "^1.2.1",
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
